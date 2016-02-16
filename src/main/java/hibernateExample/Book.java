@@ -5,6 +5,22 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+/**
+ * 
+ *  CREATE TABLE `library`.`book` ( 
+	id VARCHAR(50) NOT NULL, 
+	title VARCHAR(20) default NULL, 
+	author VARCHAR(50) default NULL, 
+	PRIMARY KEY (id) 
+	);
+ * 
+ * 
+ * @author P3502441
+ *
+ */
+
+
 @Entity
 @Table(name = "book")
 public class Book {
