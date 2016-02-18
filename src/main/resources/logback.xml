@@ -10,7 +10,7 @@
 
  <appender name="FILE"
 	class="ch.qos.logback.core.rolling.RollingFileAppender">
-	<file>F:/nikos7/Desktop/LogbackLogs</file>
+	<file>C:/Users/P3502441/Desktop/Log</file>
 	<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 	   <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
            </Pattern>
